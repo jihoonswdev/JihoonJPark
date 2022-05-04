@@ -6,7 +6,7 @@
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 5rem 6rem;
+    padding: 3rem 6rem;
     border-radius: 2rem;
     border: 10px solid transparent;
     transition: var(--transition);
@@ -41,9 +41,9 @@
 }
 
 /* === Media Queries (Tablets) === */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
     .experience__container {
-        display: grid;
+        display:grid;
         grid-template-columns: 1fr;
     }
 
