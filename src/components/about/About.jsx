@@ -1,7 +1,9 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/About-Me1.png'
+import ME from '../../assets/About-Me.png'
 import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -27,18 +29,28 @@ const About = () => {
               </article>
 
               <article className='about__card'>
-                <FaAward className='about__icon' />
-                <h5>Experience</h5>
-                <small>1 Year</small>
+                <FiUsers className='about__icon' />
+                <h5>Clients</h5>
+                <small>1 </small>
               </article>
-              
+
               <article className='about__card'>
-                <FaAward className='about__icon' />
-                <h5>Experience</h5>
-                <small>1 Year</small>
+                <VscFolderLibrary className='about__icon' />
+                <h5>Projects</h5>
+                <small>5 Completed Projects</small>
               </article>
 
             </div>
+
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Distinctio odio provident minima ex, rem consequatur, 
+              expedita quod maxime a porro ipsam sapiente praesentium 
+              aperiam illum sequi totam ad illo incidunt!
+            </p>
+
+            <a href="#contact" className="btn btn-primary">Let's Talk!</a>
+
           </div>
         </div>
 
