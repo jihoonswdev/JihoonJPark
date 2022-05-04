@@ -41,7 +41,9 @@ const About = () => {
             </div>
 
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias magni minus sit neque odio quas natus saepe. Quisquam, iste atque repudiandae laboriosam quis maxime, optio, repellat perspiciatis sunt culpa id!
+            I'm a passionate & hard-working full-stack developer that is always ready to learn new technologies.<br></br>
+            I have recently graduated from Rutger's New Brunswick Bootcamp in NJ.<br></br>
+            I love learning about new informations and contribute my expertise to grow as a developer.<br></br>
             </p>
 
             <a href="#contact" className="btn btn-primary">Let's Talk!</a>
