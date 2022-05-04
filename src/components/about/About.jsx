@@ -46,7 +46,7 @@ const About = () => {
             I love learning about new informations and contribute my expertise to grow as a developer.<br></br>
             </p>
 
-            <a href="#contact" className="btn btn-primary">Let's Talk!</a>
+            <a href="#contact" className="btns btn-primary">Let's Talk!</a>
 
           </div>
         </div>

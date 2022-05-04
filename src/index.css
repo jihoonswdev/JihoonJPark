@@ -22,7 +22,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 }
 
 html {
@@ -61,17 +61,18 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2, section > h5 {
     text-align: center;
     color: var(--color-light);
+    margin-top: 2rem
 }
 
 section > h2 {
     color: var(--color-primary);
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
+    margin-top: 1rem
 }
 
 .text-light {
@@ -98,15 +99,33 @@ a:hover {
     transition: var(--transition);
 }
 
+.btns {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid var(--color-primary);
+    transition: var(--transition);
+}
+
 .btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
+    padding: 4px;
 }
 
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+.btns:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
 }
 
 img {
