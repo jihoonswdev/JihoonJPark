@@ -2,6 +2,10 @@ import React from 'react'
 import './portfolio.css'
 import project1 from '../../assets/portfolio-1.jpg'
 
+
+
+
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -14,8 +18,10 @@ const Portfolio = () => {
             <img src={project1} alt="" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
-            <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
+              <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            </div>
         </article>
 
         <article className='portfolio__item'>
@@ -23,8 +29,10 @@ const Portfolio = () => {
             <img src={project1} alt="" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
-            <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
+              <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            </div>
         </article>
 
         <article className='portfolio__item'>
@@ -32,8 +40,10 @@ const Portfolio = () => {
             <img src={project1} alt="" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
-            <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
+              <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            </div>
         </article>
 
         <article className='portfolio__item'>
@@ -41,8 +51,10 @@ const Portfolio = () => {
             <img src={project1} alt="" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
-            <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
+              <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            </div>
         </article>
 
         <article className='portfolio__item'>
@@ -50,8 +62,10 @@ const Portfolio = () => {
             <img src={project1} alt="" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
-            <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
+              <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            </div>
         </article>
 
         <article className='portfolio__item'>
@@ -59,8 +73,10 @@ const Portfolio = () => {
             <img src={project1} alt="" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
-            <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/ccardinale98/travel-support" className='btns' target='__blank'>Github</a>
+              <a href="https://ccardinale98.github.io/travel-support/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            </div>
         </article>
       </div>
     </section>
