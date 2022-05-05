@@ -6,7 +6,7 @@ import {FiInstagram} from 'react-icons/fi'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Jason Park</a>
+      <a href="#footerroot" className='footer__logo'>Jason Park</a>
 
       <ul className='permalinks'>
       <li><a href="#root">Home</a></li>
@@ -17,8 +17,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
+        <a href="https://facebook.com" target='__blank'><FaFacebookF/></a>
+        <a href="https://instagram.com" target='__blank'><FiInstagram/></a>
       </div>
 
       <div className="footer__copyright">
