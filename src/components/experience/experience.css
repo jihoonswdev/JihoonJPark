@@ -37,7 +37,16 @@
 
 .experience__details-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    font-size: 2.5rem;
+}
+
+.h3 {
+    font-size: 1.6rem;
+}
+
+.h4,
+.h5 {
+    font-size: 1.7rem;
 }
 
 /* === Media Queries (Tablets) === */
