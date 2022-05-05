@@ -66,10 +66,10 @@ function Contact() {
         </div>
         {/* End of Contact Options */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
-          <button type='submit' className='btns btn-primary' required>Submit Message</button>
+          <input type="text" name='name' className='fontsize' placeholder='Your Full Name' required />
+          <input type="email" name='email' className='fontsize' placeholder='Your Email' required />
+          <textarea name="message" rows="7" className='message' placeholder='Your Message' required ></textarea>
+          <button type='submit' className='contactbtns btn-primary' required>Submit Message</button>
           <div className= "row"> {result ? <Result /> : null}</div>
         </form>
       </div>

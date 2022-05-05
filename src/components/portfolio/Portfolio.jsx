@@ -51,6 +51,13 @@ const data = [
     title: 'Travel Support',
     github: 'https://github.com/ccardinale98/travel-support',
     demo: 'https://ccardinale98.github.io/travel-support/'
+  },
+  {
+    id:8,
+    image: project1,
+    title: 'Travel Support',
+    github: 'https://github.com/ccardinale98/travel-support',
+    demo: 'https://ccardinale98.github.io/travel-support/'
   }
 ]
 
