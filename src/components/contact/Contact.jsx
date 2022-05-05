@@ -8,7 +8,7 @@ import emailjs from 'emailjs-com'
 
 const Result =() => {
   return(
-      <p id="context">Your message has been successfully sent. I will contact you shortly.</p>
+      <p id="context">Your message has been successfully sent. You will be contacted back within 24 hours. Thank you.</p>
   );
 };
 

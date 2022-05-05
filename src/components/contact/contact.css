@@ -1,5 +1,9 @@
+/* .contact {
+    height: 100vh;
+} */
+
 .container.contact__container {
-    width: 58%;
+    width: 40%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -18,7 +22,7 @@
     text-align: center;
     border: 1x solid transparent;
     transition: var(--transition);
-} */
+}
 
 .contact__option:hover {
     background: transparent;
@@ -61,7 +65,7 @@ textarea {
 }
 
 /* === Media Queries (Tablets) === */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
