@@ -79,11 +79,6 @@ p {
     font-size: 1.3rem;
 }
 
-/* .h5card {
-    font-size: 2rem;
-} */
-
-
 /* === Media Queries (Tablets) === */
 @media screen and (max-width: 1024px) {
     .about__container {
@@ -121,4 +116,3 @@ p {
         margin: 1.5rem 0;
     }
 }
-

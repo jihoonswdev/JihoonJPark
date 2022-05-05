@@ -1,7 +1,3 @@
-/* .contact {
-    height: 100vh;
-} */
-
 .container.contact__container {
     width: 40%;
     display: grid;
@@ -30,7 +26,7 @@
 }
 
 .contact__option-icon {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 0.5rem;
 }
 
@@ -129,4 +125,3 @@ textarea {
         width: var(--container-width-sm);
     }
 }
-
