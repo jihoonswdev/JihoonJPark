@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf6fa383.css",
+    "main.js": "/static/js/main.d6ae4c18.js",
+    "static/media/about-me12.png": "/static/media/about-me12.99f9d18c854c23cdb935.png",
+    "static/media/Me5.png": "/static/media/Me5.f814f74c4ada76505c8e.png",
+    "static/media/Ji Hoon Park Resume.pdf": "/static/media/Ji Hoon Park Resume.e87045562e0cc9d957aa.pdf",
+    "static/media/portfolio-1.jpg": "/static/media/portfolio-1.c29e8f74bba17252d66d.jpg",
+    "index.html": "/index.html",
+    "main.cf6fa383.css.map": "/static/css/main.cf6fa383.css.map",
+    "main.d6ae4c18.js.map": "/static/js/main.d6ae4c18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf6fa383.css",
+    "static/js/main.d6ae4c18.js"
+  ]
+}
