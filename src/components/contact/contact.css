@@ -53,6 +53,13 @@ textarea {
     color: var(--color-white);
 }
 
+#context{
+    font-size: 20px;
+    display: flex;
+    color: var(--color-white);
+    transition: all .2s ease;
+}
+
 /* === Media Queries (Tablets) === */
 @media screen and (max-width: 1440px) {
     .container.contact__container {
@@ -67,5 +74,4 @@ textarea {
         width: var(--container-width-sm);
     }
 }
-
 

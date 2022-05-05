@@ -1,11 +1,40 @@
-import React from 'react'
+import React, {useState, useRef} from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import emailjs from 'emailjs-com'
+
+
+const Result =() => {
+  return(
+      <p id="context">Your message has been successfully sent. I will contact you shortly.</p>
+  );
+};
 
 
 function Contact() {
+  const form = useRef();
+  const [result, showResult] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_o5gmo19', 'template_xr8cmpa', form.current, 'user_WVXs18kFXvhgVVUqnajdT')
+    .then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
+  e.target.reset();
+  showResult(true);
+  };
+
+ //  Hide Result
+ setTimeout(() =>{
+  showResult(false)
+}, 5000);
+
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -36,12 +65,12 @@ function Contact() {
 
         </div>
         {/* End of Contact Options */}
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
           <button type='submit' className='btns btn-primary' required>Submit Message</button>
-          {/* <div className= "row"> {result ? <Result /> : null}</div> */}
+          <div className= "row"> {result ? <Result /> : null}</div>
         </form>
       </div>
     </section>
