@@ -41,8 +41,8 @@ const About = () => {
             </div>
 
             <p>
-            I'm a passionate & hard-working full-stack developer that is always ready to learn new technologies.<br></br>
             I have recently graduated from Rutger's New Brunswick Bootcamp in NJ.<br></br>
+            I'm a passionate & hard-working full-stack developer that is always ready to learn new technologies.<br></br>
             I love learning about new informations and contribute my expertise to grow as a developer.<br></br>
             </p>
 
