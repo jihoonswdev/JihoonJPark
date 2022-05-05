@@ -45,6 +45,13 @@ const data = [
     github: 'https://github.com/ccardinale98/travel-support',
     demo: 'https://ccardinale98.github.io/travel-support/'
   },
+  {
+    id:7,
+    image: project1,
+    title: 'Travel Support',
+    github: 'https://github.com/ccardinale98/travel-support',
+    demo: 'https://ccardinale98.github.io/travel-support/'
+  }
 ]
 
 
@@ -52,8 +59,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5 className='h5'>My Recent Work</h5>
+      <h2 className='h2'>Portfolio</h2>
 
       <div className="container portfolio__container">
         {
@@ -65,8 +72,8 @@ const Portfolio = () => {
           </div>
             <h3> {title}</h3>
             <div className="portfolio__item-cta">
-              <a href= {github} className='btns' target='__blank'>Github</a>
-              <a href= {demo} className='btn btn-primary' target='__blank'>Live Demo</a>
+              <a href= {github} className='portfoliobtns' target='__blank'>Github</a>
+              <a href= {demo} className='portfoliobtn btn-primary' target='__blank'>Live Demo</a>
             </div>
         </article>
             )

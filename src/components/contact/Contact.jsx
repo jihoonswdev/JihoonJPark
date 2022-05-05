@@ -37,30 +37,30 @@ function Contact() {
 
   return (
     <section id='contact'>
-      <h5>Get in Touch</h5>
-      <h2>Contact Me!</h2>
+      <h5 className='h5'>Get in Touch</h5>
+      <h2 className='h2'>Connect with Me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
-            <h4>Email</h4>
+            <h4 className='h4'>Email</h4>
             {/* <h5>jihoonswdev@gmail.com</h5> */}
-            <a href="mailto:jihoonswdev@gmail.com" target='__blank'>Send a Message</a>
+            <a href="mailto:jihoonswdev@gmail.com" className='word' target='__blank'>Send a Message</a>
           </article>
 
           <article className="contact__option">
           <RiMessengerLine className="contact__option-icon"/>
-            <h4>Messenger</h4>
+            <h4 className='h4'>Messenger</h4>
             {/* <h5>email@gmail.com</h5> */}
-            <a href="https://m.me/gentlegiant312" target='__blank'>Send a Message</a>
+            <a href="https://m.me/gentlegiant312" className='word' target='__blank'>Send a Message</a>
           </article>
 
           <article className="contact__option">
           <BsWhatsapp className="contact__option-icon"/>
-            <h4>WhatsApp</h4>
+            <h4 className='h4'>WhatsApp</h4>
             {/* <h5>+15512656088</h5> */}
-            <a href="https://api.whatsapp.com/send?phone=5512656088" target='__blank'>Send a Message</a>
+            <a href="https://api.whatsapp.com/send?phone=5512656088" className='word' target='__blank'>Send a Message</a>
           </article>
 
         </div>

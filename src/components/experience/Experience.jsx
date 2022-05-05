@@ -18,7 +18,7 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h5 className='h5'>What Skills I have</h5>
-      <h2>My Experiences</h2>
+      <h2 className='h2'>My Experiences</h2>
 
                                     {/* FrontEnd */}
       <div className="container experience__container">
