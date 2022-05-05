@@ -4,6 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 
+
 function Contact() {
   return (
     <section id='contact'>
@@ -11,7 +12,7 @@ function Contact() {
       <h2>Contact Me!</h2>
 
       <div className="container contact__container">
-        <div className="container__options">
+        <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
@@ -40,6 +41,7 @@ function Contact() {
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
           <button type='submit' className='btns btn-primary' required>Submit Message</button>
+          {/* <div className= "row"> {result ? <Result /> : null}</div> */}
         </form>
       </div>
     </section>
