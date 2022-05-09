@@ -45,6 +45,22 @@ header {
     background: var(--color-primary);
 }
 
+.h51 {
+    color: #000000;
+}
+.h11 {
+    color: #000000;
+}
+.h41 {
+    color: #000000;
+}
+.h21 {
+    color: #000000;
+}
+.text-light1 {
+    color: #000000;
+}
+
 /* === ME === */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
