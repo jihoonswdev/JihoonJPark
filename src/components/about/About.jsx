@@ -18,7 +18,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about_content">
+        <div className="about__content">
           <div className="about__cards">
               <article className='about__card'>
                 <FaAward className='about__icon' />
@@ -44,6 +44,10 @@ const About = () => {
             I have recently graduated from Rutger's New Brunswick Bootcamp in NJ.<br></br>
             I'm a passionate & hard-working full-stack developer that is always ready to learn new technologies.<br></br>
             I love learning about new informations and contribute my expertise to grow as a developer.<br></br>
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam molestias repellat eius architecto autem repudiandae esse exercitationem, assumenda id adipisci totam eveniet rem, debitis, eum obcaecati dolorum vitae voluptas porro.
             </p>
 
             <a href="#contact" className="btns btn-primary">Let's Talk!</a>

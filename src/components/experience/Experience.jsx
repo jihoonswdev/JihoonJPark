@@ -21,7 +21,7 @@ const Experience = () => {
       <h2 className='h2'>My Experiences</h2>
 
                                     {/* FrontEnd */}
-      <div className="container experience__container">
+      <div className="container1 experience__container">
         <div className="experience__frontend">
           <h3 className='h3'>Frontend Development</h3>
           <div className="experience__content">

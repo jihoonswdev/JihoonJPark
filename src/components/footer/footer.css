@@ -52,6 +52,19 @@ footer a {
     color: var(--color-bg);
 }
 
+/* === Media Queries (Tablets) === */
+@media screen and (max-width: 1024px) {
+    .permalinks {
+        
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+}
+
 /* === Media Queries (Mobile (Small) ) === */
 @media screen and (max-width: 600px) {
     .permalinks {

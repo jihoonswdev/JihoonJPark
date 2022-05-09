@@ -1,7 +1,12 @@
+/* .container1 {
+    padding: rem;
+    margin: 5rem;
+} */
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 5%;
 }
 
 .about__me {
@@ -33,8 +38,8 @@
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
+    border-radius: 2rem;
+    padding: .5rem;
     text-align: center;
     transition: var(--transition);
     font-size: 1.1rem;
@@ -82,17 +87,18 @@ p {
 /* === Media Queries (Tablets) === */
 @media screen and (max-width: 1024px) {
     .about__container {
-        grid-template-columns: 1fr;
-        gap: 0;
+        grid-template-columns: 3fr;
+        gap: 2rem;
     }
 
     .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 40%;
+        margin: 2px auto 2px;
     }
 
     .about__content p {
         margin: 1rem 0 1.5rem;
+
     }
 }
 

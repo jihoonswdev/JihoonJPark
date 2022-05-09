@@ -2,7 +2,8 @@
     width: 40%;
     display: grid;
     grid-template-columns: 30% 58%;
-    gap: 12%;
+    gap: 14%;
+    padding: 6rem 1rem;
 }
 
 .contact__options {
@@ -114,8 +115,10 @@ textarea {
 /* === Media Queries (Tablets) === */
 @media screen and (max-width: 1024px) {
     .container.contact__container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        
+        grid-template-columns: 2fr 2fr;
+        padding: 3rem .5rem;
+        gap: 3rem;
     }
 }
 
