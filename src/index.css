@@ -11,9 +11,9 @@
 }
 
 :root {
-    --color-bg: #fff;
+    --color-bg: #0e24ebfb;
     --color-bg-variant: #f47327;
-    --color-primary:  #0e24ebfb;
+    --color-primary:  #1c80c7;
     --color-primary-variant: rgba(45, 209, 42, 0.98);
     --color-white: #21ed5bfb;
     --color-light: rgba(235, 121, 14, 0.98);
