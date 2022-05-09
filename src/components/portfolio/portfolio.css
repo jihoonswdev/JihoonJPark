@@ -93,6 +93,7 @@
     .portfolio__container {
         grid-template-columns: .5fr .5fr;
         gap: 1.2rem;
+        
     }
 }
 
@@ -101,5 +102,6 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        padding-left: 1rem;
     }
 }
