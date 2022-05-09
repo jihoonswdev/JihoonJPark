@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -67,7 +67,7 @@ header {
     width: 20rem;
     height: 35rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(51.5% - 11rem);
     margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
 }
