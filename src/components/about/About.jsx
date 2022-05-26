@@ -43,11 +43,17 @@ const About = () => {
             <p>
             I have recently graduated from Rutger's New Brunswick Bootcamp in NJ.<br></br>
             I'm a passionate & hard-working full-stack developer that is always ready to learn new technologies.<br></br>
-            I love learning about new informations and contribute my expertise to grow as a developer.<br></br>
             </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam molestias repellat eius architecto autem repudiandae esse exercitationem, assumenda id adipisci totam eveniet rem, debitis, eum obcaecati dolorum vitae voluptas porro.
+            A developer that can specialize in both front-end and back-end.
+            <br />
+            | Front-End includes HTML5, CSS3, JavaScript, JQuery, and APIs.
+            <br />
+            | Back-End includes (MERN Stack) - MongoDB, Express.js, React, and Node.js.
+            <br />
+            | Database includes MySQL, NoSQL, and MongoDB.
+            <br />
             </p>
 
             <a href="#contact" className="btns btn-primary">Let's Talk!</a>

@@ -1,6 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 import project1 from '../../assets/portfolio-1.jpg'
+import project2 from '../../assets/portfolio-1.jpg'
+import project3 from '../../assets/portfolio-1.jpg'
+import project4 from '../../assets/portfolio-1.jpg'
+import project5 from '../../assets/portfolio-1.jpg'
+import project6 from '../../assets/portfolio-1.jpg'
 
 const data = [
   {
@@ -12,38 +17,38 @@ const data = [
   },
   {
     id:2,
-    image: project1,
-    title: 'Travel Support',
-    github: 'https://github.com/ccardinale98/travel-support',
-    demo: 'https://ccardinale98.github.io/travel-support/'
+    image: project2,
+    title: 'Project Bid Board',
+    github: 'https://github.com/ccardinale98/project-bid-board',
+    demo: 'https://project-bid-board.herokuapp.com/'
   },
   {
     id:3,
-    image: project1,
-    title: 'Travel Support',
-    github: 'https://github.com/ccardinale98/travel-support',
-    demo: 'https://ccardinale98.github.io/travel-support/'
+    image: project3,
+    title: 'Electronic Store',
+    github: 'https://github.com/ccardinale98/electronics-store',
+    demo: 'https://electronics-storep3.herokuapp.com/'
   },
   {
     id:4,
-    image: project1,
-    title: 'Travel Support',
-    github: 'https://github.com/ccardinale98/travel-support',
-    demo: 'https://ccardinale98.github.io/travel-support/'
+    image: project4,
+    title: 'E-Commerce Backend',
+    github: 'https://github.com/jihoonswdev/E-Commerce-BackEnd',
+    demo: 'https://watch.screencastify.com/v/4jSBfHNbUxrNqrMva61o'
   },
   {
     id:5,
-    image: project1,
-    title: 'Travel Support',
-    github: 'https://github.com/ccardinale98/travel-support',
-    demo: 'https://ccardinale98.github.io/travel-support/'
+    image: project5,
+    title: 'Coming Soon!',
+    github: 'https://github.com/jihoonswdev',
+    demo: 'https://github.com/jihoonswdev'
   },
   {
     id:6,
-    image: project1,
-    title: 'Travel Support',
-    github: 'https://github.com/ccardinale98/travel-support',
-    demo: 'https://ccardinale98.github.io/travel-support/'
+    image: project6,
+    title: 'Coming soon!',
+    github: 'https://github.com/jihoonswdev',
+    demo: 'https://github.com/jihoonswdev'
   },
   // {
   //   id:7,
