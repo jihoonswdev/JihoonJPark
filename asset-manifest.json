@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/JihoonJPark/static/css/main.6dcd5c3b.css",
-    "main.js": "/JihoonJPark/static/js/main.52ec37b4.js",
+    "main.js": "/JihoonJPark/static/js/main.72ff484d.js",
     "static/media/about-me12.png": "/JihoonJPark/static/media/about-me12.99f9d18c854c23cdb935.png",
     "static/media/Me5.png": "/JihoonJPark/static/media/Me5.f814f74c4ada76505c8e.png",
-    "static/media/JasonJiHoonParkResume.PDF": "/JihoonJPark/static/media/JasonJiHoonParkResume.5a96cd703f41fa42856a.PDF",
+    "static/media/JasonJiHoonParkResume.pdf": "/JihoonJPark/static/media/JasonJiHoonParkResume.5a96cd703f41fa42856a.pdf",
     "static/media/portfolio-1.jpg": "/JihoonJPark/static/media/portfolio-1.b4e47bab9d46e823cdd9.jpg",
     "static/media/portfolio-3.jpg": "/JihoonJPark/static/media/portfolio-3.3821bd3602f72d6dd405.jpg",
     "index.html": "/JihoonJPark/index.html",
     "main.6dcd5c3b.css.map": "/JihoonJPark/static/css/main.6dcd5c3b.css.map",
-    "main.52ec37b4.js.map": "/JihoonJPark/static/js/main.52ec37b4.js.map"
+    "main.72ff484d.js.map": "/JihoonJPark/static/js/main.72ff484d.js.map"
   },
   "entrypoints": [
     "static/css/main.6dcd5c3b.css",
-    "static/js/main.52ec37b4.js"
+    "static/js/main.72ff484d.js"
   ]
 }
