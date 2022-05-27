@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JihoonJPark/static/css/main.6dcd5c3b.css",
-    "main.js": "/JihoonJPark/static/js/main.72ff484d.js",
+    "main.js": "/JihoonJPark/static/js/main.fb781c7f.js",
     "static/media/about-me12.png": "/JihoonJPark/static/media/about-me12.99f9d18c854c23cdb935.png",
     "static/media/Me5.png": "/JihoonJPark/static/media/Me5.f814f74c4ada76505c8e.png",
     "static/media/JasonJiHoonParkResume.pdf": "/JihoonJPark/static/media/JasonJiHoonParkResume.5a96cd703f41fa42856a.pdf",
@@ -9,10 +9,10 @@
     "static/media/portfolio-3.jpg": "/JihoonJPark/static/media/portfolio-3.3821bd3602f72d6dd405.jpg",
     "index.html": "/JihoonJPark/index.html",
     "main.6dcd5c3b.css.map": "/JihoonJPark/static/css/main.6dcd5c3b.css.map",
-    "main.72ff484d.js.map": "/JihoonJPark/static/js/main.72ff484d.js.map"
+    "main.fb781c7f.js.map": "/JihoonJPark/static/js/main.fb781c7f.js.map"
   },
   "entrypoints": [
     "static/css/main.6dcd5c3b.css",
-    "static/js/main.72ff484d.js"
+    "static/js/main.fb781c7f.js"
   ]
 }
