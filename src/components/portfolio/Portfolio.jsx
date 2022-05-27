@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 import project1 from '../../assets/portfolio-1.jpg'
-import project2 from '../../assets/portfolio-1.jpg'
-import project3 from '../../assets/portfolio-1.jpg'
-import project4 from '../../assets/portfolio-1.jpg'
-import project5 from '../../assets/portfolio-1.jpg'
-import project6 from '../../assets/portfolio-1.jpg'
+import project2 from '../../assets/portfolio-2.png'
+import project3 from '../../assets/portfolio-3.jpg'
+import project4 from '../../assets/portfolio-4.jpg'
+import project5 from '../../assets/portfolio-5-6.jpg'
+import project6 from '../../assets/portfolio-5-6.jpg'
 
 const data = [
   {
